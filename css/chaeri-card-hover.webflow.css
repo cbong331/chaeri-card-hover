@@ -1,0 +1,22 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.body {
+  perspective: 1000px;
+  perspective-origin: 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  display: block;
+}
